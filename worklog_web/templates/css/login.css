@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/loginbg.jpg);
+    background-repeat: no-repeat;
+}
+
+#bigbox {
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 20px 50px;
+    background-color: #00000090;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#bigbox h1 {
+    color: white;
+}
+
+#bigbox .inputbox {
+    margin-top: 50px;
+}
+
+#bigbox .inputbox .inputtext {
+    margin-top: 20px;
+}
+
+#bigbox .inputbox .inputtext input {
+    border: 0;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;
+    background-color: #00000000;
+    color: white;
+}
+
+#bigbox .inputbox .inputbutton {
+    border: 0;
+    width: 150px;
+    height: 20px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
