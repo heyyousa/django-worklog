@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
@@ -10,22 +10,74 @@
 </head>
 
 <body>
-    <div class="logo">
-        <h2>
+    <div class="topbox float">
+        <div class="logo float">
             <span>
                 <a href="#">沧县医院</a>
             </span>
-        </h2>
+        </div>
+        <div class="float">
+            <div class="menubox float">
+                <center>
+                    <ul>
+                        <li>
+                            <a href="#">工作日志</a>
+                        </li>
+                        <li>
+                            <a href="#">设置</a>
+                        </li>
+                        <li>
+                            <a href="#">XX</a>
+                        </li>
+                        <li>
+                            <a href="#">XX</a>
+                        </li>
+                    </ul>
+                </center>
+            </div>
+        </div>
     </div>
-    <div id="topbox">
-        <center>
-            <ul>
-                <li>工作日志</li>
-                <li>设置</li>
-                <li>XX</li>
-                <li>XX</li>
-            </ul>
-        </center>
+    <div>
+        <div class="logbox logtext">
+            <form action="">
+                <div class="loginput">
+                    <label for="date">日期</label>
+                    <input type="text" name="" id="date">
+                </div>
+                <div class="loginput">
+                    <label for="start">开始时间</label>
+                    <input type="text" id="start">
+                </div>
+                <div class="loginput">
+                    <label for="qtype">问题类型</label>
+                    <input type="text" id="qtype">
+                </div>
+                <div class="loginput">
+                    <label for="qscript">问题描述</label>
+                    <input type="text" name="" id="qscript" placeholder="不超过20字">
+                </div>
+                <div class="loginput">
+                    <label for="finish">完成时间</label>
+                    <input type="text" id="finish">
+                </div>
+                <div class="loginput">
+                    <label for="status">完成情况</label>
+                    <input type="text" id="status">
+                </div>
+                <div class="notediv">
+                    <label for="note">备注</label>
+                    <textarea name="" id="note" cols="30" rows="3" placeholder="不超过30字"></textarea>
+                </div>
+                <div class="loginput">
+                    <span class="buttonspan">
+                        <input type="submit" class="button" id="" value="添加">
+                    </span>
+                    <span class="buttonspan">
+                        <input type="reset" class="button" id="" value="重置">
+                    </span>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
