@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-image: url(../img/loginbg.jpg);
     background-repeat: no-repeat;
+    background-position: center top;
 }
 
 .float {
@@ -10,9 +11,9 @@ body {
 }
 
 .topbox {
-    background-color: #00000090;
+    background-color: #00000080;
     width: 100%;
-    height: 120px;
+    height: 90px;
 }
 
 .menubox {
@@ -31,14 +32,14 @@ body {
     height: auto;
     width: 240px;
     display: inline-block;
-    padding: 20px 20px;
+    padding: 6px 20px;
 }
 
 .logo {
     color: white;
     font-size: 40px;
     font-weight: 500;
-    padding: 30px 35px;
+    padding: 15px 35px;
 }
 
 body a:link {
@@ -55,11 +56,12 @@ body a:hover {
  }
 
 .logbox {
-    width: 900px;
+    width: 750px;
     height: 700px;
-    padding-top: 180px;
+    padding-top: 50px;
     padding-left: 100px;
     text-align: left;
+    display: inline-block;
 }
 
 .logtext {
@@ -68,7 +70,7 @@ body a:hover {
 }
 
 .loginput {
-    width: 600px;
+    width: 450px;
     height: 80px;
 }
 
@@ -103,7 +105,19 @@ label {
 }
 
 .notediv {
-    width: 600px;
-    height: 160px;
+    width: 450px;
+    height: 130px;
 }
 
+.chartbox {
+    width: 750px;
+    height: 750px;
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: left;
+    display: inline-block;
+}
+
+.form {
+    width:550px;
+}
