@@ -19,8 +19,8 @@ from worklog_web import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', views.index),
-    path('calpage/', views.calpage),
+    path('login/', views.login),
+    path('mainpage/', views.mainpage),
     path('cal/', views.cal)
 
 ]

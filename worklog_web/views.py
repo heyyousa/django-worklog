@@ -3,13 +3,11 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def index(request):
-    return render(request, 'index.html')
+def login(request):
+    return render(request, 'login.html')
 
-
-def calpage(request):
-    return render(request, 'calpage.html')
-
+def mainpage(request):
+    return render(request, 'mainpage.html')
 
 def cal(request):
     va = request.POST['valueA']

@@ -56,10 +56,9 @@ body a:hover {
  }
 
 .logbox {
-    width: 750px;
+    width: 470px;
     height: 700px;
-    padding-top: 50px;
-    padding-left: 100px;
+    margin-left: 100px;
     text-align: left;
     display: inline-block;
 }
@@ -110,14 +109,23 @@ label {
 }
 
 .chartbox {
-    width: 750px;
-    height: 750px;
-    padding-top: 50px;
-    padding-left: 100px;
+    width: 1320px;
+    height: 720px;
+    margin-top: 50px;
+    padding-left: 5px;
     text-align: left;
     display: inline-block;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    background-color: #00000070;
+    border-radius: 20px;
+
 }
 
-.form {
-    width:550px;
+.table {
+    width: 1300px;
+    border: 2px;
+    font-size: 18px;
+    color: #FFFDE4;
+    text-align: center;
 }
