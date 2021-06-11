@@ -18,9 +18,7 @@ from django.urls import path
 from worklog_web import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('login/', views.login),
     path('mainpage/', views.mainpage),
-    path('cal/', views.cal)
-
+    path('signpage/',views.signpage),
 ]
