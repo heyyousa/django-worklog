@@ -12,8 +12,4 @@ def mainpage(request):
 def signpage(request):
     return render(request, 'signpage.html')
 
-def cal(request):
-    va = request.POST['valueA']
-    vb = request.POST['valueB']
-    result = int(va) + int(vb)
-    return render(request, 'result.html', context={'data': result})
+
