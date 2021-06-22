@@ -56,11 +56,13 @@ body a:hover {
  }
 
 .logbox {
+    display: inline-block;
+    position: relative;
+    top: -30px;
     width: 470px;
     height: 700px;
     margin-left: 100px;
-    text-align: left;
-    display: inline-block;
+    text-align: left; 
 }
 
 .logtext {
@@ -74,6 +76,7 @@ body a:hover {
 }
 
 body input,textarea {
+    width: 321px;
     font-size: 20px;
     border: 1px;
     border-radius: 5px;
